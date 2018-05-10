@@ -13,7 +13,7 @@ print("***Reloj***")
 
 seg=t[5]
 while seg<60:
-    t=time.localtime()
+    h=time.localtime()
 
-    print("La hora es: "+str(t[3])+":"+str(t[4])+":"+(str(t[5])))
+    print("La hora es: ",h[3],":",h[4],":",h[5])
     time.sleep(1)
